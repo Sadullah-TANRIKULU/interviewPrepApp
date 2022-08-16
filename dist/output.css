@@ -557,6 +557,10 @@ video {
   margin: 1rem;
 }
 
+.m-2{
+  margin: 0.5rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -597,6 +601,10 @@ video {
   width: 91.666667%;
 }
 
+.w-1\/3{
+  width: 33.333333%;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -621,6 +629,20 @@ video {
   border-radius: 0.375rem;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-stone-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
 }
@@ -629,8 +651,8 @@ video {
   background-image: url('https://cutewallpaper.org/24/html5-logo-png/html5-logo-icon-psd-freebie-download-by-chia-yi-lai-on-dribbble.png');
 }
 
-.bg-\[url\(\'https\:\/\/miro\.medium\.com\/max\/870\/1\*fC1TiemRWYDWObQUlpAnBg\.png\'\)\]{
-  background-image: url('https://miro.medium.com/max/870/1*fC1TiemRWYDWObQUlpAnBg.png');
+.bg-\[url\(\'https\:\/\/i\.pinimg\.com\/originals\/a3\/2f\/83\/a32f83aa2c675058e4a05a0fd4da05eb\.png\'\)\]{
+  background-image: url('https://i.pinimg.com/originals/a3/2f/83/a32f83aa2c675058e4a05a0fd4da05eb.png');
 }
 
 .bg-\[url\(\'https\:\/\/miro\.medium\.com\/max\/785\/1\*H-25KB7EbSHjv70HXrdl6w\.png\'\)\]{
@@ -649,6 +671,14 @@ video {
   background-image: url('https://e7.pngegg.com/pngimages/736/115/png-clipart-flag-of-england-flag-of-the-united-kingdom-flag-of-the-city-of-london-england.png');
 }
 
+.bg-\[url\(\'https\:\/\/www\.seekpng\.com\/png\/detail\/80-803501_javascript-logo-logo-de-java-script-png\.png\'\)\]{
+  background-image: url('https://www.seekpng.com/png/detail/80-803501_javascript-logo-logo-de-java-script-png.png');
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -659,6 +689,12 @@ video {
 
 .font-fontAcme{
   font-family: Acme, monospace;
+}
+
+.shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 1024px){
