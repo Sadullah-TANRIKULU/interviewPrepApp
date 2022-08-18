@@ -287,6 +287,10 @@ const dataEnglish: any[] = [
     <p class="text-center lg:w-3/4">"I knew I was in danger and that, at a word from its owner, the dog was ready to attack." (my situation : if the dog's owner orders, it instantly attacks me.)</p>
 
   ` },
+    { info: `<br>
+    <p class="text-center lg:w-3/4">"Our goal is to have all candidates have a pleasant experience and spend their time with us, in a constructive manner.</p>
+
+  ` },
     
 ];
 
